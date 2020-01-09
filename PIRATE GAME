@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div id="title-box">
+        <h1> Pirates and Robbers </h1>
+    </div>
+
+    <div id="game-box">
+        <button id = "buttons" onclick = "addition1(); playSound();"></button>
+        <button id="buttons1" onclick = "addition2();" class="numberbox"></button>
+        <button id="buttons2" onclick = "spin3()"></button>
+        <button id="buttons3" class="numberbox" onclick = "addition4()"></button>
+        <button id="buttons4" class="numberbox" onclick = "addition5()"></button>
+        <button id="buttons5" class="numberbox" onclick = "addition6()"></button>
+        <button id="buttons6" class="numberbox" onclick = "addition7()"></button>
+        <button id="buttons7" onclick="x2()"></button>
+        <button id="buttons8" class="numberbox" onclick = "addition9()"></button>
+        <button id="buttons9" onclick="bomb()"></button>
+        <button id="buttons10" class="numberbox" onclick = "addition11()"></button>
+        <button id="buttons11" class="numberbox" onclick = "addition12()"></button>
+        <div id="instructions">
+            <button onclick="spin()" id="spin"> SPIN! </button>
+            <h1> Instructions </h1>
+            <h2> The objective of this game is to gain the most points</h2>
+            <h2> The bomb means that all of the gained points are lost</h2>
+            <h2> The "X2" symbol means your points double</h2>
+            <h2> The "switch" symbol means you shuffle your points and you either get a higher or lower score</h2>
+            <p></p>
+        </div>
+    </div>
+    <div id="score-box"></div>
+
+
+
+
+    <div id="shuffleBox">
+        <h3> This will pick which box you have to cross out </h3>
+        <div id="numberbox" class="numberboxes"></div>
+
+        <h4 id="myh2"> Click this button to spin! </h4>
+
+        <button onclick="niggaz()" id="boxbutton"> SPIN! </button>
+
+        <img id="piratething" src="https://i.ibb.co/Ln28TjZ/PIRATE-CARTOON.png" />
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>3
